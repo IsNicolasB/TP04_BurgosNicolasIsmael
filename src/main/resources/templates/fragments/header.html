@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TP4</title>
+	<!-- Compiled and minified CSS -->
+   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+	<link rel="stylesheet" data-th-href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}">
+</head>
+<body>
+	<header data-th-fragment="header">
+		<div class="text-center"> 	
+			<img alt="Facultad de Ingeniería Unju" src="/images/logo-fi-unju.png"  class="w-75" style="height: 120px;"></img>
+		</div>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary" >
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="/main/index">INCIO</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          	<a class="nav-link active" aria-current="page" href="#acerca-de" >ACERCA DE</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contacto">CONTACTO</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            CARRERAS
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="#carreras-grado" >CARRERAS DE GRADO</a></li>
+		            <li><a class="dropdown-item" href="#carreras-pregrado" >CARRERAS PRE GRADO</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item" href="https://www.fi.unju.edu.ar/carreras/cunt.html" target="_blank">OTROS CONVENIOS</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+					<a class="nav-link" href="#noticias">NOTICIAS</a>
+				</li>
+				
+				<li class="nav-item">
+					<p class="nav-link mb-2 text-body-secondary" href="" >EL FUTURO NOS ACOMPAÑA</p>
+				</li>
+				
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	<!--
+	Compiled and minified JavaScript
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     -->
+    <script data-th-src="@{/webjars/bootstrap/5.3.3/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
