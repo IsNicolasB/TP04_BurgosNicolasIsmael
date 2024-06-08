@@ -4,12 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TP4</title>
-	<!-- Compiled and minified CSS -->
-   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+	<link rel="stylesheet" href="/css/styles.css">
    <link rel="stylesheet" data-th-href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}">
 </head>
 <body>
-	<aside data-th-fragment="aside">
+	<aside class="aside py-0 my-0" data-th-fragment="aside">
 		<div class="accordion" id="menu">
 			<div class="accordion-item">
 			  <h2 class="accordion-header">
@@ -20,23 +19,23 @@
 			  <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#menu">
 				<div class="accordion-body">
 					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><a target="_blank" href="https://fi.unju.edu.ar/servicios/biblioteca.html">Biblioteca</a></li>
-						<li class="list-group-item"><a target="_blank" href="https://becas.unju.edu.ar/">Becas Unju</a></li>
-						<li class="list-group-item"><a target="_blank" href="https://www.fi.unju.edu.ar/institucional/reglamentos.html">Reglamentos</a></li>
-						<li class="list-group-item"><a target="_blank" href="https://www.fi.unju.edu.ar/institucional/autoridades.html">Autoridades</a></li>
-						<li class="list-group-item"><a target="_blank" href="https://www.fi.unju.edu.ar/practicaprofesional.html">Practica Profesional</a></li>
+						<li class="list-group-item"><a class="link-index" target="_blank" href="https://fi.unju.edu.ar/servicios/biblioteca.html">Biblioteca</a></li>
+						<li class="list-group-item"><a class="link-index" target="_blank" href="https://becas.unju.edu.ar/">Becas Unju</a></li>
+						<li class="list-group-item"><a class="link-index" target="_blank" href="https://www.fi.unju.edu.ar/institucional/reglamentos.html">Reglamentos</a></li>
+						<li class="list-group-item"><a class="link-index" target="_blank" href="https://www.fi.unju.edu.ar/institucional/autoridades.html">Autoridades</a></li>
+						<li class="list-group-item"><a class="link-index" target="_blank" href="https://www.fi.unju.edu.ar/practicaprofesional.html">Practica Profesional</a></li>
 					  </ul>
 				</div>
 			  </div>
 			</div>
 		</div>		  
-		<div class="card">
+		<div class="card mt-2">
 			<h5 class="card-header text-center">AGENDA FI</h5>
 			<div class="card-body">
 				<img src="/images/agenda.png" class="card-img-top" alt="Agenda">
 			</div>
 		</div>
-		<div class="card">
+		<div class="card mt-2">
 			<h5 class="card-header text-center">52 ANIVERSARIO</h5>
 			<div class="card-body">
 				<img src="/images/52-aniversario.jpeg" class="card-img-top" alt="Aniversario 52 de la Facultad de Ingeniería">

@@ -35,10 +35,11 @@ public class ListadoCarreras {
 	}
 	
 	public static void modificarCarrera(Carrera carreraModificada) {
+		System.out.println(carreraModificada.getCodigo());
+		carreraModificada.setEstado(true);
 		for (int i = 0; i < carreras.size(); i++) {
 			Carrera carrera = carreras.get(i);
 			if(carrera.getCodigo().equals(carreraModificada.getCodigo())) {
-				carreraModificada.setEstado(true);
 				carreras.set(i, carreraModificada);
 				break;
 			}
